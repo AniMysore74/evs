@@ -1,22 +1,468 @@
 [
-    {
-    "question": "What is 2*5?",
-    "choices": [2, 5, 10, 15, 20],
-    "correctAnswer": 2
-  }, {
-    "question": "What is 3*6?",
-    "choices": [3, 6, 9, 12, 18],
-    "correctAnswer": 4
-  }, {
-    "question": "What is 8*9?",
-    "choices": [72, 99, 108, 134, 156],
-    "correctAnswer": 0
-  }, {
-    "question": "What is 1*7?",
-    "choices": [4, 5, 6, 7, 8],
-    "correctAnswer": 3
-  }, {
-    "question": "What is 8*8?",
-    "choices": [20, 30, 40, 50, 64],
-    "correctAnswer": 4
-  }]
+	{
+		"question" : "Environment is derived from the French word",
+		"choices" : ["environner","environem","envis","none of the above"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "World Environment Day is celebrated on _________ every year.",
+		"choices" : ["12 June","5th June","8th June","20th June"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "Ozone day is observed on",
+		"choices" : ["January 30","October 2","September 16","March 16"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "Globally, Earth Day is celebrated on ____________.",
+		"choices" : ["April 22","June 5","July 15","September 16"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "In our country, Vanamahotsav day is celebrated on ____________.",
+		"choices" : ["October 2","July 1","June 5","September 16"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "An eco-friendly slogan:",
+		"choices" : ["Do or die","Birds of same feather fly together","Say no to crackers","Time and tide wait for none"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "The study of interactions between living organisms and man is called as _____________.",
+		"choices" : ["Ecosystem","Ecology","Phytogeography","Phytoecology"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "The two components of the ecosystem are ____________.",
+		"choices" : ["plants and animals","plants and light","abiotic and biotic","weeds and micro-organisms"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The largest unit of living organisms on Earth is ________.",
+		"choices" : ["Ecosystem","Atmosphere","Biome","Biosphere"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "An ecosystem consists of _______________________.",
+		"choices" : ["Producers","decomposers","producers and decomposers","producers, consumers and decomposers"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "The total organic matter present in the ecosystem is termed as __________.",
+		"choices" : ["Biome","Biomass","biotic community","litter"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "Most stable ecosystem is ______________.",
+		"choices" : ["Forest","Desert","Ocean","Grassland"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "Decomposers include ________________.",
+		"choices" : ["Bacteria","Fungi","Both Bacteria & Fungi","animals"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "A leaf adapted to a warm dry climate is:",
+		"choices" : ["large and thin","small and thin","large and thick","small and thick"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "Which ecological pyramid is always straight?",
+		"choices" : ["Pyramid of biomass","Pyramid of numbers","Pyramid of energy","Pyramid of numbers and biomass"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "Energy flow in an ecosystem is",
+		"choices" : ["multi-directional","unidirectional","2-way flow","None of the above"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "The transfer of food energy through a chain of organisms from one tropic level to another is known as _____________.",
+		"choices" : ["Energy chain","Food chain","Trophic chain","Organism chain"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "The gradual build up of the concentration of chemicals as they transfer through higher levels of the food chain is called _______________ ",
+		"choices" : ["Biomagnifications","Bioconcentration","Biodegradation","Biomethanation"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "Usable energy is lost at each level of a food chain in the form of _____________.",
+		"choices" : ["Heat","chemical energy","light","mechanical energy"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "The atmosphere is divided into spherical layers based upon the",
+		"choices" : ["density of each layer","concentration of ozone in each layer","temperature changes from variations in absorption of solar energy","concentration of oxygen in each layer"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "Air near Earth's surface tends to be ________.",
+		"choices" : ["warmer and wetter; then it rises, expanding and cooling","warmer and drier; then it rises, condensing and gathering moisture","cooler and wetter; then it rises, is warmed by the sun, and sinks again","cooler and drier; it rises when it is displaced by sinking warm air"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "The meteorological parameters vary widely as a function of ______________.",
+		"choices" : ["Latitude","Season","Topography","all the above"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "The largest portion of atmospheric gases by weight is ________.",
+		"choices" : ["Oxygen","Nitrogen","Sulphur","ozone"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "The correct sequence of layers of the atmosphere from innermost to outermost is",
+		"choices" : ["mesosphere—stratosphere—thermosphere—troposphere","troposphere—stratosphere—mesosphere—thermosphere","stratosphere—thermosphere—troposphere—mesosphere","thermosphere—stratosphere—mesosphere—troposphere"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "The atmospheric layer containing 75% of the mass of earth's air is the",
+		"choices" : ["thermosphere","mesosphere","stratosphere","troposphere"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "Troposphere displays ___________ lapse rate.",
+		"choices" : ["Positive","Negative","Neutral","None"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "Weather patterns are largely dependent on",
+		"choices" : ["Mesosphere","Stratosphere","Troposphere","thermosphere"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "The lower most layer of the atmosphere is",
+		"choices" : ["stratosphere","thermosphere","troposphere","ionosphere"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "The atmosphere in the stratosphere is __________",
+		"choices" : ["Quiescent","Turbulent","Both a & b","None of the above"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "Stratospheric ozone is responsible for all of the following, except",
+		"choices" : ["screening out ultraviolet radiation","allowing the evolution of life on land","preventing ozone formation in the troposphere","lowering atmospheric water vapor"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "The reason that temperature increases with altitude through most of the stratosphere is ________.",
+		"choices" : ["Heat released by absorption of UV radiation by oxygen and ozone","sunlight is more intense in the stratosphere","water vapor levels are high and store heat","greenhouse gases warm the air"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "Ozone layer is measured in",
+		"choices" : ["Centimeters","Millimeters","Decibels","Dobson unit"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "The middle, partially melted zone of the interior of the earth is called the ________________.",
+		"choices" : ["Crust","tectonic plate","core","mantle"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "Large sections of the earth‘s crust, called __________, move slowly on the mantle below them.",
+		"choices" : ["Asthenosphere","Mantle","tectonic plates","core"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "Nature reveals four basic principles that could help us to transition to sustainable societies. Which of the following is not one of those principles?",
+		"choices" : ["Reliance on solar energy","Biodiversity","Survival of the fittest","Population control"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "Natural events leading to no loss of life and property are termed as __________.",
+		"choices" : ["Hazards","Disasters","both (a) and (b)","none"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "All natural hazards are disasters and vice-versa.",
+		"choices" : ["True","False","both (a) and (b)","none of the above"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "An example of the natural disaster caused by geological factors is ___________",
+		"choices" : ["deforestation","flood","volcano","drought"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "Which of the following is said to occur when an interaction benefits one species but has little, if any, effect on the other?",
+		"choices" : ["Predation","Parasitism","Mutualism","Commensalism"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "Globally, the most prominent disasters are _____________.",
+		"choices" : ["Volcanoes","Earthquake","Landslides","floods"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "In India, among the various natural disasters, ____________ is common.",
+		"choices" : ["Earthquake","Drought","Floods","landslides"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "Four of the following are harmful environmental effects of a severe drought, one is not. Choose the one that is not.",
+		"choices" : ["dries out soil","reduces moisture in the air from evaporation","reduces stream flows","decreases tree growth and biomass"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "An earthquake can be caused by",
+		"choices" : ["a sudden slip on a fault","by volcanic or magmatic activity","sudden stress changes in the earth","all of the above"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "The point of origin of earthquake that lies below the earth‘s surface is called the ____________",
+		"choices" : ["Epicenter","Focus","Ring","Fault"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "Seismic waves are measured on ____________ scale.",
+		"choices" : ["Ricter","Ritcher","Richer","Rickter"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "Seismic waves can travel in ______________ direction.",
+		"choices" : ["Backward","Forward","All the direction","both (a) and (b)"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "Average duration of an earthquake is ______ seconds.",
+		"choices" : ["100","60","40","30"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "The severity of an earthquake is a measure of its seismic waves, and is called",
+		"choices" : ["Epicenter", "Focus", "Magnitude", "Ridges"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "Faulting earthquakes are also termed as ______________ earthquakes.",
+		"choices" : ["Volcanic","Seismic","Faulting","Coseismic"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "Which of the following enhance the frequency of an earthquake?",
+		"choices" : ["big dams","underground nuclear testing","mining and exploration in seismic zones","all of these"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "_______________ is identified as seismic zone.",
+		"choices" : ["Lakshadweep Islands","Deccan plateau","Chota Nagpur","Gulf of Mannar"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "The term tsunami comes from the Japanese meaning _________",
+		"choices" : ["Harbor","Shore","Bay","tides"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "Large waves generated in the ocean by an earthquake, landslide, or volcanic activity are called _______.",
+		"choices" : ["pipe waves","quake waves","seismic waves","tsunamis"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "__________floods are caused by a significant and unexpected event",
+		"choices" : ["Catastrophic","Estuarine","Coastal","Riverine"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "In India, _______________is considered to be amongst the worst flood hit states of the country.",
+		"choices" : ["Uttar Pradesh","Bihar","Karnataka","Andhra Pradesh"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "Which of the following is most likely to result in severe flooding of low-lying areas?",
+		"choices" : ["tilling land in the flood plain","digging subsurface mines in nearby mountains","using grassland for cattle grazing","skin cancer!"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "One of the major human activities that has contributed to flooding is",
+		"choices" : ["constructing dams","directing stream flow","destroying vegetation","irrigation"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "Generally, tropical cyclone activity peaks during ______________ season.",
+		"choices" : ["Winter","late summer","Rainy","none of the above."],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "Tropical cyclones with maximum sustained surface winds of less than 39 mph are called __________.",
+		"choices" : ["tropical depressions","equator depressions","hurricanes","tornadoes"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "Cyclone Aila of May 2009 can be classified as ___________________.",
+		"choices" : ["equator depression","cyclonic","severe Cyclonic Storm","hurricane"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "Worldwide, the costliest tropical cyclone is ____________.",
+		"choices" : ["Hurricane Katrina","Cyclone Bhola","Cyclone Aila","none of the"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "Landslides occur in ______________ seasons.",
+		"choices" : ["summer","rainy","winter","all"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "Water leakage from utilities may lead to ____________________.",
+		"choices" : ["Volcanoes","Landslides","Earthquake","None"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "Head loading in a steep slope leads to occurrence of __________________.",
+		"choices" : ["Landslides","Earthquakes","Deforestation","all the above"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "Toe removal results in triggering of an ________________",
+		"choices" : ["Earthquake","Landslide","Flood","drought"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "Landslides induced by earthquakes are termed as ______________ landslides.",
+		"choices" : ["Seismic","Coseismic","Volcanic","Sliding"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "Afforestation can aid in minimizing ______________.",
+		"choices" : ["Earthquakes","Landslides","Tsunamis","None"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "Forest fires are of ______________ origin.",
+		"choices" : ["Natural","Anthropogenic","Climatic","Both (a) and (b)"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "____________ shelters are specifically constructed to offer some protection against blast pressure, initial radiation, heat, and fire.",
+		"choices" : ["Blast","Fallout","Both","None"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "Biodiversity includes all of the following components except _______________.",
+		"choices" : ["Functional diversity","Genetic diversity","Intellectual diversity","Ecosystem diversity"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "Which of the following is true?",
+		"choices" : ["The higher the species richness, the lower productivity.","The lower the species richness, the more the productivity.","The lower the species richness, the more the sustainability.","The higher the species richness, the more the sustainability."],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "The two most important factors determining the climate of an area are",
+		"choices" : ["temperature and wind","Temperature and precipitation","Precipitation and light","Light and temperature"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "The two hot spots of biodiversity in India are _______________.",
+		"choices" : ["Western and Eastern Himalayas","Western and Eastern Ghats","Western Ghats and Eastern Himalayas","Western Ghats and Western Himalayas"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "Over the world, there are __________ terrestrial hot spots identified for the conservation of biodiversity",
+		"choices" : ["30","40","50","25"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "Because birds live in every climate and biome, and because they are easy to track and count, they serve as excellent",
+		"choices" : ["keystone species","Scapegoats","Indicator species","Aesthetic indicators"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "Which of the following is said to occur when one organism feeds on the body of, or the energy used by, another organism?",
+		"choices" : ["Inter specific competition","Predation","Parasitism","Mutualism"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "Illegal hunting for profit is called ___________________.",
+		"choices" : ["Subsistence hunting","Sport hunting","Commercial hunting","Poaching"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "The concept of sustainable society is based on the idea that _________________.",
+		"choices" : ["The earth resources has unlimited natural resources","Recycling can solve most of the earth‘s environmental problems","Solutions to environmental problems can be found by working with nature","The earth has natural mechanism for maintaining an environmental equilibrium"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "Socio-economic security in environmental aspects is provided involves",
+		"choices" : ["Fairness and equity in distribution costs for complete existing generation","Welfare of the present generation","Intra and inter generational equity of resources","All of the above"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "The highest rate at which a renewable resource can be used indefinitely without reducing its available supply is called _______________.",
+		"choices" : ["Conservation","Sustainable yield","Preservation","Perpetual resource"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "Which of the following is not the environment effect of industrialization in general?",
+		"choices" : ["Solid waste","Water pollution","Air pollution","Economic growth"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "Which of the following are major environmental issues involved in mining?",
+		"choices" : ["Air pollution from dust","Water pollution","Soil degradation","All of the above"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "Sustainable development means",
+		"choices" : ["Meeting present needs without compromising on the future","Progress in human well beings","Balance between human needs and the ability of Earth to provide the resources","All the above"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "The most important remedy to avoid negative impact due to industrialization is",
+		"choices" : ["Industry should be closed","Don’t allow new industrial units","Industry should treat all the wastes generated by it before disposal","Industries should shifted far away from human habitats"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "Mining means",
+		"choices" : ["To conserve & preserve minerals","To check pollution due to mineral resources","To extract minerals and ores","None"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "E.I.A can be expanded as",
+		"choices" : ["Environment & Industrial Act","Environment & Impact Activities","Environment Impact Assessment","Environmentally Important Activity"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "E.I.A is related to",
+		"choices" : ["Resource conservation","Efficient equipment/ process","Waste minimization","All of the above"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "In order to protect the health of people living along the adjoining areas of roads, one should",
+		"choices" : ["Plant trees alongside of the roads","Not allow diesel driven vehicles","Shift them (people) to other places","None of the above"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "The pollution caused by transportation/vehicular activities depends on",
+		"choices" : ["Type of the vehicle’s engine","Age of the vehicle","Traffic congestion","All of the above"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "Sustainable development will not aim at",
+		"choices" : ["Social economic development which optimizes the economic and societal benefits available in the present, without spoiling the likely potential for similar benefits in the future", "Reasonable and equitably distributed level of economic well being that can be perpetuated continually", "Development that meets the needs of the present without compromising the ability of future generations to meet their own needs", "Maximizing the present day benefits through increased resource consumption"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "Which of the following is a key element of EIA?",
+		"choices" : ["Scoping","Screening","Identifying and evaluating alternatives","All the above"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "Which of the following is the most environmental friendly agriculture practice?",
+		"choices" : ["Using chemical fertilizers","Using insecticides","Organic farming","None of the above"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "The adverse effect of modern agriculture is",
+		"choices" : ["Water pollution","Soil pollution","Water logging","All the above"],
+		"correctAnswer": 3
+	}
+]

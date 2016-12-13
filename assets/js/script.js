@@ -8,13 +8,14 @@
     function reqListener(e) {
         questions = JSON.parse(this.responseText);
     }
-
     var questionCounter = 0; //Tracks question number
     var selections = []; //Array containing user choices
     var quiz = $('#quiz'); //Quiz div object
+    var qnos = []; // Array containing randomly generated numbers corresponding to question numbers in  var questions
+    var started = false;
 
-    // Display initial question
-    displayNext();
+    // Display quiz settings
+    quizSettings();
 
     // Click handler for the 'next' button
     $('#next').on('click', function (e) {
@@ -53,20 +54,42 @@
         if (quiz.is(':animated')) {
             return false;
         }
-        questionCounter = 0;
-        selections = [];
-        displayNext();
-        $('#start').hide();
+        if(!started) {
+            started = true;
+            quizSettings();
+        }
+        else {
+            var noQs = $('input[name="qnos"]').val();
+            if(noQs<1 || noQs>92) {
+                alert('Please enter a number between 1 and 93');
+            }
+            else {
+                qnos = [];
+                for(var i =0; i<noQs; i++) {
+                    qnos.push(Math.floor(Math.random()*92));
+                }
+                questionCounter = 0;
+                selections = [];
+                displayNext();
+                $('#start').hide();
+            }
+        }
     });
-
-    // Animates buttons on hover
-    $('.button').on('mouseenter', function () {
-        $(this).addClass('active');
-    });
-    $('.button').on('mouseleave', function () {
-        $(this).removeClass('active');
-    });
-
+    // Set the number of questions
+    function quizSettings() {
+        started = true;
+        $('#question').remove();
+        quiz.fadeOut(function () {
+            var newElement = $('<div>', {
+                id: 'question'
+            });
+            newElement.append('<p><input type="number" max="92" min="1" id="qnos" name="qnos" /><label for="qnos" >How many questions</label></p>');
+            quiz.append(newElement).fadeIn();
+            $('#next').hide();
+            $('#submit').hide();
+            $('#start').show();
+        });
+    }
     // Creates and returns the div that contains the questions and
     // the answer selections
     // params used only to show correct/incorrect answer
@@ -75,7 +98,7 @@
             id: 'question'
         });
 
-        var header = $('<h4>Question ' + (index + 1) + ':</h4>');
+        var header = $('<h4>Question ' + (questionCounter+1) + ':</h4>');
         qElement.append(header);
 
         var question = $('<p>').append(questions[index].question);
@@ -86,7 +109,6 @@
 
         return qElement;
     }
-
     // Creates a list of the answer choices as radio inputs
     // params is used for highlighting correct and wrong choices after question is answered
     function createRadios(index, params) {
@@ -122,7 +144,7 @@
     // Change foramatting of labels to radio buttons
     function formatRadioLabel(params, i) {
         if (params === false)
-            return ' ';
+            return 'class="black-text"';
         else if (params.qlist[i] == "correct-selection" || params.qlist[i] == "rightanswer")
             return 'class="teal-text"';
         else if (params.qlist[i] == "wrong-selection")
@@ -134,13 +156,12 @@
     function choose() {
         selections[questionCounter] = +$('input[name="answer"]:checked').val();
     }
-
     // Displays next requested element
     function displayNext() {
         quiz.fadeOut(function () {
             $('#question').remove();
-            if (questionCounter < questions.length) {
-                var nextQuestion = createQuestionElement(questionCounter, false);
+            if (questionCounter < qnos.length) {
+                var nextQuestion = createQuestionElement(qnos[questionCounter], false);
                 quiz.append(nextQuestion).fadeIn();
                 if (!(isNaN(selections[questionCounter]))) {
                     $('input[value=' + selections[questionCounter] + ']').prop('checked', true);
@@ -158,13 +179,12 @@
             }
         });
     }
-
     function displayAnswer() {
         quiz.fadeOut(function () {
             $('#question').remove();
             var answerParams = checkAnswer();
 
-            var nextQuestion = createQuestionElement(questionCounter, answerParams);
+            var nextQuestion = createQuestionElement(qnos[questionCounter], answerParams);
             quiz.append(nextQuestion).fadeIn();
 
             $('#next').show();
@@ -172,41 +192,39 @@
             $('#start').hide();
         });
     }
-
     function checkAnswer() {
         var params = {
             qlist: [],
         };
-        for (var i = 0; i < questions[questionCounter].choices.length; i++) {
-            if (i === selections[questionCounter] && selections[questionCounter] === questions[questionCounter].correctAnswer) {
+        for (var i = 0; i < questions[qnos[questionCounter]].choices.length; i++) {
+            if (i === selections[questionCounter] && selections[questionCounter] === questions[qnos[questionCounter]].correctAnswer) {
                 params.qlist.push("correct-selection");
             } else if (i === selections[questionCounter]) {
                 params.qlist.push("wrong-selection");
-            } else if (i === questions[questionCounter].correctAnswer) {
+            } else if (i === questions[qnos[questionCounter]].correctAnswer) {
                 params.qlist.push("rightanswer");
             } else {
                 params.qlist.push("blank");
             }
         }
-        console.log(params);
         return params;
     }
-
     // Computes score and returns a paragraph element to be displayed
     function displayScore() {
+        started = false;
         var score = $('<p>', {
             id: 'question'
         });
 
         var numCorrect = 0;
         for (var i = 0; i < selections.length; i++) {
-            if (selections[i] === questions[i].correctAnswer) {
+            if (selections[i] === questions[qnos[i]].correctAnswer) {
                 numCorrect++;
             }
         }
 
-        score.append('You got ' + numCorrect + ' questions out of ' +
-            questions.length + ' right!!!');
+        score.append('<h4> You got <strong class="teal-text">' + numCorrect + '</strong> questions out of <strong class="teal-text">' +
+            qnos.length + '</strong> right!</h4>');
         return score;
     }
 })();
