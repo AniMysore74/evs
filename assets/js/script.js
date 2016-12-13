@@ -1,25 +1,15 @@
 (function () {
-
+    // All global variables
     var module, allQuestions, questions;
-
-    var oReq = new XMLHttpRequest();
-    oReq.onload = reqListener;
-    oReq.open("get", "assets/json/modall.json", true);
-    oReq.send();
-
-    function reqListener(e) {
-        module = JSON.parse(this.responseText);
-        allQuestions = module[0].concat(module[1], module[2], module[3], module[4]);
-    }
     var questionCounter = 0; //Tracks question number
     var selections = []; //Array containing user choices
     var quiz = $('#quiz'); //Quiz div object
     var qnos = []; // Array containing randomly generated numbers corresponding to question numbers in  var questions
     var started = false;
-
+    // initalize
+    init();
     // Display quiz settings
     quizSettings();
-
     // Click handler for the 'next' button
     $('#next').on('click', function (e) {
         e.preventDefault();
@@ -31,7 +21,6 @@
         questionCounter++;
         displayNext();
     });
-
     // Click handler for the 'submit' button
     $('#submit').on('click', function (e) {
         e.preventDefault();
@@ -49,7 +38,6 @@
             displayAnswer();
         }
     });
-
     // Click handler for the 'Start Over' button
     $('#start').on('click', function (e) {
         e.preventDefault();
@@ -86,6 +74,30 @@
             }
         }
     });
+    // initializes the json and localStorage files
+    function init() {
+        //verify if db is in localStorage and kind-of verify integrity
+        if (localStorage.allmodules) {
+            module = JSON.parse(localStorage["allmodules"]);
+            allQuestions = module[0].concat(module[1], module[2], module[3], module[4]);
+            if (allQuestions.length==448) {
+                console.log("localStorage loaded");
+                return;
+            }
+        }
+        else {
+            var oReq = new XMLHttpRequest();
+            oReq.onload = reqListener;
+            oReq.open("get", "assets/json/modall.json", true);
+            oReq.send();
+
+            function reqListener(e) {
+                module = JSON.parse(this.responseText);
+                allQuestions = module[0].concat(module[1], module[2], module[3], module[4]);
+                localStorage.allmodules = JSON.stringify(module);
+            }
+        }
+    }
     // Set the number of questions
     function quizSettings() {
         started = true;
@@ -198,7 +210,7 @@
             }
         });
     }
-
+    // Displays answer after each question
     function displayAnswer() {
         quiz.fadeOut(function () {
             $('#question').remove();
@@ -212,7 +224,7 @@
             $('#start').hide();
         });
     }
-
+    // Validates the submitted answer
     function checkAnswer() {
         var params = {
             qlist: [],
