@@ -1,0 +1,763 @@
+[
+	{
+		"question" : "Which of the following is the primary gas in natural gas?",
+		"choices" : ["ethane", "methane", "propane", "butane"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Which of the following statements are natural sources of air pollution?",
+		"choices" : ["volcanic eruption", "solar flair", "earthquake", "all of the above"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Which green house gas is known as colorless, non-flammable, and laughing gas?",
+		"choices" : ["Ethane", "Nitrous oxide", "Methane", "Sulphur hexabenzene"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "One molecule of chlorine causes destruction of ______________ O3 molecules.",
+		"choices" : ["One lakh", "Ten thousand", "One crore ", "One billion"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "The chief chemical compound responsible for ozone hole is",
+		"choices" : ["chlorofluorocarbon ", "chlorine ", "methane ", "nitrous oxide"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Chlorofluorocarbons rise to the stratosphere and ________________________.",
+		"choices" : ["react directly with stratospheric ozone to destroy it", "after interacting with UV energy, become free radicals, which destroy ozone", "become free radicals that react with oxygen to create ozone", "react with free radicals to remove carbon dioxide"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "One of the problems that occurs as a consequence of CFC pollution is __________.",
+		"choices" : ["increasing skin cancer in humans", "toxins accumulating in homes", "damage to human red blood cells", "movement of toxins into lakes and rivers, which poisons fish"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "What is the harm from the depletion of Earth's ozone layer",
+		"choices" : ["The average temperature of earth's surface will increase gradually", "The oxygen content of the atmosphere will decrease", "Increased amount of Ultra violet radiation will reach earth's surface", "Sea levels will rise as the polar ice caps will gradually melt"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The effects of ozone depletion on humans includes all of the following, except _______________.",
+		"choices" : ["more cataracts", "suppression of immune system", "more brain cancers ", "worse sunburn"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Mesosphere has a ___________ lapse rate.",
+		"choices" : ["negative", "positive", "both (a) and (b) ", "neutral"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "The important chemical species in the mesosphere are _________",
+		"choices" : ["O2+, NO+2", "O3+, N+", "O+, CO2 ", "O2+, NO+"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "The following are major types of air pollutants, EXCEPT",
+		"choices" : ["Oxides of Carbon", "Oxides of Sulphur", "Oxides of Nitrogen", "Oxides of Hydrogen"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Harmful chemicals emitted directly into the air from natural processes and human activities are called __________.",
+		"choices" : ["primary pollutants ", "secondary pollutants", "smog", "tertiary pollutants"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "An example of secondary pollutant is ____________.",
+		"choices" : ["SO2", "CO2", "Acid rain", "NOx"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Nonpoint sources of pollution include all of the following except __________________.",
+		"choices" : ["wind carrying dirt and pesticides from croplands", "runoff from a stockyard", "a smokestack from a power plant", "fertilizer runoff from lawns"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Mobile sources with definite routes are classified as __________ sources",
+		"choices" : ["area", "line", "point", "non-point"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Acid rain is formed due to contribution from the following pair of gases",
+		"choices" : ["Methane and ozone", "Oxygen and nitrous oxide", "methane and sulphur dioxide", "Carbon dioxide and sulphur dioxide"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "The major automobile pollutants are ___________.",
+		"choices" : ["CO, NOx, HCs and CH4", "CO, NOx, HCs and SPM", "CO2, NOx, HCs and SO2", "All of the above"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "You have been hired by a rapidly growing small city to improve the air quality, which has deteriorated in the past 10 years. Your first suggestion is to ________.",
+		"choices" : ["try to negotiate with the large city downwind whose factories produce large amounts of pollution", "decrease the amount of CFCs used locally", "improve transportation options, including carpool lanes, buses, and light rail", "remove the hydroelectric dam on the river"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The pollution caused by the transportation / vehicular activity depends on ____________________.",
+		"choices" : ["type of vehicle engine", "age of the vehicle", "traffic congestion", "all of the above"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Global warming may bring about the following changes in the climate of the Earth.",
+		"choices" : ["Increase in rainfall ", "desertification", "drought", "all of the above"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "The Green House Effect is due to the _________________.",
+		"choices" : ["Impermeability of long wavelength radiations through CO2 of the atmosphere.", "Penetrability of short wavelength radiations through O3 layer.", "Penetrability of short wavelength radiations through CO2.", "Impermeability of long wavelength radiations through O3 layer."],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "______________has the highest global warming potential.",
+		"choices" : ["CFC", "methane", "nitrous oxide", "carbon dioxide"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "The global warming potential of CO2 is the _________ among the green house gases.",
+		"choices" : ["highest", "least", "average", "none"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Greenhouse gases prevent most of the outgoing ________radiation from the surface and lower atmosphere from escaping into outer space.",
+		"choices" : ["UV", "gamma", "microwave", "infra-red"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "The maximum contribution of green house gases to the atmosphere is from ______________ sector.",
+		"choices" : ["Transportation fuels", "Power stations", "Agricultural by products", "Waste treatment"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Climate models predict that global warming will be most severe in which regions?",
+		"choices" : ["Australia", "North America", "Polar regions", "Africa"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "A temperature inversion is the result of _____________________.",
+		"choices" : ["precipitation", "cold air drainage", "a lid of warm air on top of cooler, stagnant air", "a cold blanket of air that prevents warm air from rising"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Subsidence inversion is generally seen in _____________ areas.",
+		"choices" : ["Cyclonic", "Anticylonic", "Both a) and b)", "Neither a) nor b)"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Inverse condition is the",
+		"choices" : ["increase in temperature with latitude", "decrease in temperature with altitude", "increase in temperature with altitude ", "decrease in temperature with latitude"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Smog is a combination of the words",
+		"choices" : ["smoke and fog", "snow and fog ", "smoke and snow", "all of the above"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Photochemical smog is characteristic of urban areas with many vehicles and a climate that is ______.",
+		"choices" : ["cool, wet, and cloudy", "cool, dry, and sunny", "warm, dry, and sunny", "warm, wet, and cloudy"],
+		"correctAnswer":2
+	},
+
+	{
+		"question" : "Photochemical smog peaks in the _______________.",
+		"choices" : ["Morning ", "Evening ", "Afternoon ", "Twilight"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Photochemical smog is __________ type of smog.",
+		"choices" : ["reducing", "oxidizing", "neutral", "none of the above"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "_________ gives the photochemical smog its distinctive color.",
+		"choices" : ["NO2", "Sox", "SPM", "HC"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "PAN stands for",
+		"choices" : ["peroxy acetyl nitrite", "peroxy acetyl nitrate", "peroxyl acetyl nitrate", "peroxy acetic nitrate"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "London smog was caused mainly due to excess of oxides of ____________ in atmosphere.",
+		"choices" : ["nitrogen", "sulphur", "carbon", "phosphorus"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Sulphurous smog is __________________ type of smog.",
+		"choices" : ["Reducing", "Oxidizing", "Neutral", "Exploding"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Which of the following statement about carbon monoxide is true?",
+		"choices" : ["Forms complex with hemoglobin", "Formed by complete combustion of fossil fuels", "Forms complex with monoglobin", "None of the above"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Silicosis is caused in the",
+		"choices" : ["Textile industry ", "Sugar industry ", "Stone crushers ", "Storage battery industries"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The major effect of air pollutants on paper is _________",
+		"choices" : ["discoloration", "corrosion", "embrittlement", "tarnishing"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The most important indoor air pollutant is",
+		"choices" : ["SO2 ", "CO2 ", "NO2 ", "Radon gas"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Sick Building Syndrome is linked to all of the following, except",
+		"choices" : ["headaches", "coughing and sneezing", "lung cancer", "chronic fatigue"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Respiratory illnesses in developing countries are most likely to be caused by",
+		"choices" : ["formaldehyde", "cigarette smoke", "particulate matter", "asbestos"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "One way to reduce indoor air pollution in developed countries, especially VOCs, is to do which of the following?",
+		"choices" : ["Put new filters on furnaces and air conditioners.", "Leave the windows open a little bit.", "Leave absorbent charcoal in key areas.", "Use houseplants to absorb the VOCs."],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Major contribution of indoor air pollutants comes from __________.",
+		"choices" : ["room fresheners", "cooking", "carpets and furniture ", "washing dishes"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "Bacterial and fungal spores can be included as ________.",
+		"choices" : ["contributors to indoor pollutants", "VOCs and POPs", "the cause of high pesticide use in the home", "sources of radon in the home"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Furniture stuffing, paneling, particle board, and foam insulation may be sources of _____________.",
+		"choices" : ["chloroform", "formaldehyde", "carbon monoxide", "asbestos"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Air pollution control devices suitable for removing fine dust from the air is _______.",
+		"choices" : ["cyclone separator", "electrostatic precipitator", "settling chamber", "fabric filter"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "An average ecological footprint of an individual in a given country or area is called ______________.",
+		"choices" : ["per capita gross GNP", "ecological footprint", "per capita GDP PPP", "per capita ecological footprint"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "An example of area sources of pollution is",
+		"choices" : ["Industry", "Sewage treatment plant", "Agricultural land", "None of the above"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Which of the following is a non-point source of pollution?",
+		"choices" : ["Industries", "Sewage treatment plants", "Agricultural lands ", "All of the above"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The phenomenon of corrosion of marble due to acid rain:",
+		"choices" : ["Marble Fever", "Marble Cancer", "Marble Rain ", "Marble Pain"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Experts rate acid rain as a",
+		"choices" : ["high-risk ecological and human health problem", "medium-risk ecological problem and high-risk human health problem", "high-risk ecological and low-risk human health problem", "high-risk ecological problem and no-risk human health problem"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Reduction in the brightness of the famous Taj Mahal is due to the",
+		"choices" : ["ozone depletion", "acid rain", "global warming", "deforestation"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Acid rain can be controlled by:",
+		"choices" : ["reducing SO2 and NO2 emissions", "reducing particulates in air", "increasing the forest cover", "curtailing the emissions of GHGs"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Garbage can be put under four categories: organic, toxic, soiled, and recyclable. Of the organic waste, this forms an important part.",
+		"choices" : ["plastic bags ", "vegetable peels", "glass", "metal"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Waste that includes paper, food wastes, cans, bottles, yard waste, glass, wood, and similar items is called ____.",
+		"choices" : ["industrial solid waste", "hazardous waste", "municipal solid waste", "e-waste"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "A solid waste characterization depends on _________________________.",
+		"choices" : ["density", "composition", "energy content", "all"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "The organic acids present in solid wastes are metabolized into ___________.",
+		"choices" : ["CO2 and H2S", "CO2 and H2O", "CO2 and CH4", "SO2 and H2O"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "One of the following is added to the compost to get better results:",
+		"choices" : ["ants", "bugs", "worms", "snakes"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "In composting, the biological activity will decrease if _____________________ factor is increased.",
+		"choices" : ["temperature", "phosphorus", "nitrogen", "none of the above."],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Optimal temperature during composting is _____________OC.",
+		"choices" : ["30-35", "40-50", "60", "66"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "While composting, the maintenance of pH below 8.5 is better to minimize the loss of N2 in the form of _____.",
+		"choices" : ["nitric acid", "NO2", "ammonia", "amino acid"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "For an optimum composting operation, C : N ratio has to be maintained at",
+		"choices" : ["(65 -90) : 1", "(85 -100) : 1", "(20 -30) : 1", "(35 -50) : 1"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Biogas is a mixture of CH4, CO2, H2 and _______.",
+		"choices" : ["CO", "N2O", "H2S", "SO2"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Following is not recommended for management of plastic waste:",
+		"choices" : ["Incineration", "Deep burial", "Autoclave/Hydroclave", "All of the above"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "The chemical constituents of some organic wastes can be recovered by ________ of solid waste.",
+		"choices" : ["incineration ", "landfill", "ocean dumping", "pyrolysis"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Pyrolysis is an ____________ process.",
+		"choices" : ["exothermic", "endothermic", "both (a) and (b)", "neither (a) nor (b)"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "Around __________% of the hospital waste generated is non-hazardous.",
+		"choices" : ["70", "60", "85", "90"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "EPR is the abbreviation of _________________.",
+		"choices" : ["Extended Pollution Report", "External Pollution Result", "Extended Producer Responsibility", "both (a) and (b)"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "E-waste can be best managed with ________________.",
+		"choices" : ["polluter pays principle", "extended producer responsibility", "ocean dumping", "none of these"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Solid waste is best managed through",
+		"choices" : ["incineration", "open dumping", "sanitary landfill", "composting"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "In a solid waste management program, the most favorable option is ____________ .",
+		"choices" : ["prevention of waste generation", "minimization of waste generation", "recycling", "energy recovery"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "In waste hierarchy concept, the least favorable option is ____________ of waste.",
+		"choices" : ["composting", "disposal", "sanitary landfill", "recycling"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Standards for deep burial include following except:",
+		"choices" : ["Depth of pit /trench should be 1 meter", "Depth of pit/trench should be at least 2 meters", "Burial must be performed under close and dedicated supervision", "It must be ensured that animals do not have access to burial sites"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "The consolidated waste enclosed by earth at the end of the day‘s operation is called a________.",
+		"choices" : ["row", "chamber", "compost", "cell"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Landfills are the sites for the disposal of solid waste. While building a landfill it is very essential to take one of the following factors into consideration.",
+		"choices" : ["below ground water level", "above ground water level", "both (a) and (b)", "none"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Improper lining of sanitary landfill leads to ______________ pollution.",
+		"choices" : ["air", "water", "both (a) and (b)", "none"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Love Canal Tragedy is attributed to _______________.",
+		"choices" : ["soil pollution", "hazardous waste", "air pollution", "none"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "The company responsible for the dumping of toxic and cancer-causing wastes into an old canal excavation called the Love Canal was",
+		"choices" : ["DuPont", "Monsanto ", "Hooker Chemicals and Plastics Corporation ", "the 3M Company"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Which is not a suitable option for the disposal of spent nuclear fuel?",
+		"choices" : ["Seal it in deep pools.", "Monitor it in storage near the ground surface.", "Bury it deep within the Earth.", "Seal it in a landfill."],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "In a low-waste approach, which of the following strategies should be given lowest priority?",
+		"choices" : ["reuse", "reduce", "bury", "recycle"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Unscientific disposal of solid wastes leads to ________________",
+		"choices" : ["air pollution ", "surface water pollution", "ground water", "all of the above"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Waste which has been in contact with the blood or body fluids is termed as",
+		"choices" : ["Radiological Waste ", "Liquid waste", "Infectious Waste", "Cytotoxic Drugs"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The colour code for the biomedical waste to be autoclaved, disinfected is",
+		"choices" : ["red", "black", "yellow", "blue/white"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Bhopal Gas Tragedy was caused due to the leakage of ____________.",
+		"choices" : ["methyl iso cyanate ", "sulphur dioxide", "methyl iso cyanite", "methane"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Union Carbide India Ltd. Was manufacturing _____________ pesticide.",
+		"choices" : ["Carbaryl", "DDT", "Malathion", "None of the above"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "MIC stands for",
+		"choices" : ["methemoisocyanate", "methylisocyanite", "methylisocyanic", "methylisocyanate"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Most deaths from the Chernobyl accident were attributed to _____________.",
+		"choices" : ["blast", "fall-out", "both (a) and (b)", "none"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Chernobyl disaster is classified as _______________ type of disaster.",
+		"choices" : ["chemical", "nuclear", "explosion", "all the above"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Persons contaminated with radioactive particles usually feel a burning sensation on their skin.",
+		"choices" : ["True", "False", "both (a) and (b)", "none of the above"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Which of the following statement is true?",
+		"choices" : ["People exposed to certain biological agents may not become ill until many days later", "People exposed to certain biological agents may not become ill immediately", "People exposed to certain biological agents may not become ill at all", "all the above"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "What is a hurricane",
+		"choices" : ["a small area storm originating in a mountainous terrain", "a large intense storm originating in the tropics", "all of the above", "none of the above"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "What is the most damaging result of a hurricane?",
+		"choices" : ["rains", "storm surge", "high winds", "none of the above"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "The top most priority in emergency response to disaster is",
+		"choices" : ["search and rescue ", "assessment of needs", "Livelihood and economy", "Finance"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Which of the following should you do well before an earthquake strikes?",
+		"choices" : ["store sturdy shoes under your bed", "practice emergency drills with the family and meet at designated place", "prepare emergency kit that includes first aid, food, clothes and other supplies", "all of the above"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Retrofitting is one of the emergency preparedness measures for __________.",
+		"choices" : ["landslides", "hurricanes", "earthquakes", "floods"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Ozone layer is measured in",
+		"choices" : ["Centimeter", "Millimeters", "Decibels", "Dobson unit"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Which green house gas is known as colorless, non-flammable and laughing gas",
+		"choices" : ["Ethane", "Nitrous oxide", "Methane", "Sulphur hex benzene"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "In a low waste approach, which of the following strategies should be given lowest priority?",
+		"choices" : ["Reuse", "Recycle", "Bury", "Reduce"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The chief chemical compound responsible for ozone hole is",
+		"choices" : ["Chlorofluorocarbon", "Chlorine", "Methane", "Nitrous oxide"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Chlorofluorocarbons rise to the stratosphere and____",
+		"choices" : ["Reacts rapidly with stratospheric ozone to destroy it", "After reacting with UV Energy, become free radicals, which destroy ozone", "Become free radicals that react with oxygen to create ozone", "Reacts with free radicals to remove carbon dioxide"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "One of the problems that occurs as a consequence of CFC pollution is ______",
+		"choices" : ["Increase in shin cancer in humans", "Toxins accumulating in homes", "Damage to human red blood cells", "Movement of toxins into lakes and rivers, which poisons fish"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "The effect of ozone depletion on humans includes all of the following, except____",
+		"choices" : ["More cataracts", "Suppression of immune system", "More brain cancers", "Worse sunburn"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Global warming may bring about the following changes in the climate of the earth",
+		"choices" : ["Increase in rainfall", "Desertification", "Drought", "All"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "The green house effect is due to the _______",
+		"choices" : ["Impermeability of long wavelength radiations through CO2 of the atmosphere", "Penetrability of short wavelength radiations through O3 layer", "Penetrability of short wavelength radiations through CO2", "Impermeability of long wavelength radiations through O3 layer"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "________ has the highest global warming potential",
+		"choices" : ["CFC", "Methane", "Nitrous oxide", "Carbon dioxide"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "The global warming potential of Carbon dioxide is the ____among green house gases",
+		"choices" : ["Highest", "Least", "Average", "None"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "The maximum contribution of green house gases to the atmosphere is from____ sector",
+		"choices" : ["Transportation fuels", "Power stations", "Agricultural by products", "Waste treatment"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Climate model predict that global warming will be most severe in which regions?",
+		"choices" : ["Australia", "North America", "Polar regions", "Africa"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The phenomenon of corrosion of marble due to acid rain is",
+		"choices" : ["Marble fever", "Marble cancer", "Marble rain", "Marble pain"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Experts rate acid rain as a",
+		"choices" : ["High risk ecological & Human health problem", "Medium risk ecological & High risk human health problem", "High risk ecological & Low risk human health problem", "High risk ecological & NO- risk human health problem"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Reduction in brightness of the famous Taj Mahal is due to the",
+		"choices" : ["Ozone depletion", "Acid rain", "Global warming", "Deforestation"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Acid rain can be controlled by",
+		"choices" : ["Reducing SO2 & NO2 emissions", "Reducing particulates in air", "Increasing the forest cover", "None"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Waste that includes paper, food waste, cans, bottles, yard waste, glass and similar items is called____",
+		"choices" : ["Industrial solid waste", "Hazardous waste", "Municipal solid waste", "E- waste"],
+		"correctAnswer": 2
+	},
+	{
+		"question" : "A solid waste characterization depends on",
+		"choices" : ["Density", "Composition", "Energy content", "All"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "The organic acids present in solid waste are metabolized into___",
+		"choices" : ["Carbon dioxide& Hydrogen sulphide", "Carbon dioxide & water", "Carbon dioxide & methane", "Sulphur dioxide & water"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "One of the following is added to the compost to get better results",
+		"choices" : ["Ants", "Bugs", "Worms", "Snakes"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "In composting, the biological activity decrease if _____ factor in increased",
+		"choices" : ["Temperature", "Phosphorous", "Nitrogen", "Sulphur"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "While composting, the maintenance of pH below 8.5 is better to minimize the loss of N2 in the form of",
+		"choices" : ["Nitric acid", "Nitrogen dioxide", "Ammonia", "Amino acids"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Biogas is a mixture of methane, carbon dioxide, hydrogen &",
+		"choices" : ["CO", "Nitrogen dioxide", "Hydrogen sulphide", "Sulphur dioxide"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The chemical constituents of some organic wastes can be recovered by___ of solid waste",
+		"choices" : ["Incineration", "Landfill", "Ocean dumping", "Pyrolysis"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Around ________ % of the hospital waste generated is non hazardous",
+		"choices" : ["70", "60", "85", "90"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "E-waste can be best managed with___",
+		"choices" : ["Polluter pays principle", "Extended producer responsibility", "Ocean dumping", "Incineration"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Solid waste is best managed through",
+		"choices" : ["Incineration", "Open dumping", "Sanitary landfill", "Composting"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "IN a solid waste management program, the most favorable option is",
+		"choices" : ["Prevention of waste generation", "Minimization of waste generation", "Recycling", "Energy recovery"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Which is not suitable option for the disposal of spent nuclear fuel?",
+		"choices" : ["Seal it in deep pools", "Monitor it in storage near the ground surface", "Bury it deep within the earth", "Seal it in landfill"],
+		"correctAnswer": 3
+	}
+],

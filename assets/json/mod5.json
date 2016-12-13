@@ -1,0 +1,247 @@
+[
+	{
+		"question" : "Illegal hunting for profit is called",
+		"choices" : ["subsistence hunting", "sport hunting", "Commercial hunting", "Poaching"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Project tiger was launched by the Govt. of India with the support of____ in the year 1973",
+		"choices" : ["WWF", "GEF", "UNCEF", "GEMS"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "A new approach towards conservation of bio diversity is",
+		"choices" : ["National parks", "Sanctuaries", "Reserve forests", "Biosphere reserves"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "The most common places for ex-situ conservation of biodiversity are",
+		"choices" : ["Botanical gardens & Zoos", "Tissue culture labs", "Parks & Gardens", "Grasslands"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "According to the researchers, the greatest threat to wild life is",
+		"choices" : ["Habitat destruction", "Invasive species", "Population & resource use growth", "Pollution"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "An endangered species",
+		"choices" : ["May soon become extinct over all or most of its range", "Is one that evolving in to another species", "Is one that may become rare in the next 100 years", "May eventually become threatened or rare"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Protected areas liking isolated reserves is a design called",
+		"choices" : ["Habitat corridors", "Buffer zone concept", "Wilderness concept", "Transition zone"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "The term malnutrition refers to people who consume",
+		"choices" : ["Less than basic number of daily calories", "Unbalanced meals", "The working kind of foods", "Poor quality foods"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "First international treaty seeking the management & conservation was signed in the year",
+		"choices" : ["1911", "1927", "1905", "1887"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "_________ convention governs the shipment of hazardous wastes",
+		"choices" : ["Montreal", "London", "Basel", "Kyoto"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The air (Prevention & Control of pollution) act , 1981 came in to force on",
+		"choices" : ["May16", "May 26", "March 26", "March 16"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "United nations conference on environment & development held in 1992 is formally known as the",
+		"choices" : ["Basel convention", "London convention", "CAMBA", "Earth summit"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Earth summit is held at",
+		"choices" : ["Rio de Janerio", "Texas", "Johannesburg", "Stockholm"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "The agency that has laid down the standards for the control of pollution of air, water & Noise is",
+		"choices" : ["Central pollution Control Tribunal", "Central Pollution Control Agency", "Central Pollution Control Board", "Ministry of home affairs"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Which article in the constitution imposes a constitutional obligation on the state to protect & improve the environment & safeguard the forests & Wildlife of the country?",
+		"choices" : ["Article 42", "Article 48A", "Article 51A", "Article 52"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Which article in the constitution recognizes environmental protection as one of the fundamental duties of every citizen of India?",
+		"choices" : ["Article 42", "Article 48A", "Article 51A(g)", "Article 52"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The rules pertaining to biomedical waste (INDIA) notified under environmental (protection ) act",
+		"choices" : ["1980", "1983", "1986", "1988"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "___ Act was enforced in the wake of Bhopal gas tragedy",
+		"choices" : ["Water prevention & Control of pollution", "The air (Prevention & Control) of pollution", "The environment protection", "None"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The water (Prevention & control of pollution) Bill was first passes in the year",
+		"choices" : ["1975", "1974", "1983", "1986"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "The Forest (Conservation) act came into enforcement in",
+		"choices" : ["1986", "1975", "1980", "1982"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The principle aim of the national forest policy is to ensure",
+		"choices" : ["Conservation of water", "Conservation of trees", "Ecological stability", "Conservation of soil"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The wild life (Protection) act was enacted in the year",
+		"choices" : ["1972", "1975", "1980", "1982"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "________ act provides scope for captive breeding of endangered species",
+		"choices" : ["Forest", "Wild life", "Water", "Air"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "As per national forest policy, it is essential to have a minimum _____% of the total area of the country under forest or tree cover",
+		"choices" : ["50", "25", "20", "33"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "State with highest % of land under forest is",
+		"choices" : ["Arunachal Pradesh", "Mizoram", "Assam", "Utterpradesh"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "pH of the unpolluted rain water is about",
+		"choices" : ["8.7", "3.7", "5.7", "1"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Which of the following is having high population density{",
+		"choices" : ["India", "China", "USA", "Western Europe"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "The meaning of global warming is",
+		"choices" : ["Increase in the temperature of climate", "A planet hotter than earth", "Solar radiation", "None"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "The tiger conservation project was started in",
+		"choices" : ["1973", "1984", "1999", "2004"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Which of the following animal is endangered species of India",
+		"choices" : ["Black buck", "Elephant", "Fox", "Giraffe"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "The important N G O involved in global environmental protection is",
+		"choices" : ["UNICEF", "Greenpeace", "WHO", "CPCB"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "G.I.S is abbreviation for",
+		"choices" : ["Geographical Information Science", "Geographical Instrumentation Science", "Geographical Information Science", "None"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "An automated system for the capture, storage and display of spatial data is known as",
+		"choices" : ["GPS", "Remote sensing", "G I S", "None"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "In------ year the honorable supreme court of India made environmental education compulsory subject at all the levels of education",
+		"choices" : ["2000", "2001", "2002", "2003"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "The first international earth summit was held at",
+		"choices" : ["Johannesburg", "Rio de Janeiro", "Kyoto", "Stockholm"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "The first earth summit, of 1972 was held in",
+		"choices" : ["Rio de Janero", "Texas", "Johannesburg", "Stockholm"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "The government of India adopted the national housing and habitat policy in",
+		"choices" : ["2000", "2001", "2002", "1998"],
+		"correctAnswer": ""
+	},
+
+	{
+		"question" : "Which of the following is N G O",
+		"choices" : ["Benaluru Mahanagara Palike", "Narmada Bachao Aandolan", "karnataka Power Corporation limited", "None of these"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "The Mahila Arthika Vikas Mahamandal (MAVIM) Was set up in the year",
+		"choices" : ["1955", "1965", "1975", "1985"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "First Biosphere reserves in India was",
+		"choices" : ["Nilgiris", "Sariska", "Mullaperiyar", "Chambal"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "UN assembly proclaimed the universal declaration of human rights in Paris on",
+		"choices" : ["16th May 1994", "10th Dec 1948", "15 Nov 1980", "11th Dec 1949"],
+		"correctAnswer": 2
+	}
+]

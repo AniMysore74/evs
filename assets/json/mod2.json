@@ -1,0 +1,547 @@
+[
+	{
+		"question" : "The word energy is derived from",
+		"choices" : ["English","Arabic","Greek","Latin"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Energy means",
+		"choices" : ["Capacity to do work","Capacity to hear","Capacity to see","None of the above"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Energy is measured in",
+		"choices" : ["Blu","Bhu ","Btu ","Ntu"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "James prescott Joule was a English",
+		"choices" : ["Chemist","Physicist ","Mathematician ","Astronomer"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "One Btu is equivalent to",
+		"choices" : ["1000 Joules","10 Joules ","100 Joules ","10000 Joules"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "A piece of buttered bread toast contains about",
+		"choices" : ["200 kilo joules","200 Joules","315 Kilojoules","315 Joules"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The energy equivalent derived after consuming a piece of buttered bread toast is sufficient enough to jog for",
+		"choices" : ["16min","16 secs","6 secs","6min"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The energy equivalent of a piece of buttered bread is sufficient to light a 60W bulb for",
+		"choices" : ["19min","90min","90secs","19sec"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Energy of motion is known as",
+		"choices" : ["Heat Energy","Potential energy ","Kinetic energy ","None of the above"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Energy due to position is known as",
+		"choices" : ["Heat energy","Potential energy ","Kinetic energy ","Wind energy"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Renewable energy is",
+		"choices" : ["Primary source","Secondary source ","Tertiary source","None of the above"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Coal, lignite & natural gas are",
+		"choices" : ["Renewable","Fossil fuels ","Secondary sources ","All the above"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Nuclear energy is obtained from",
+		"choices" : ["Barium","Calcium ","Platinum","Uranium"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Hydro energy is obtained from",
+		"choices" : ["Still water","Falling water ","Stored water ","None of the above"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Electromagnetic radiation from the sun is known as",
+		"choices" : ["Nuclear energy","Hydro energy","Solar energy ","Tidal energy"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Electric energy from Coal burning is an example of",
+		"choices" : ["Secondary energy","Primary energy","Solar energy ","All the above"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "The energy consumption for Global transportation is about",
+		"choices" : ["42%","24%","4% ","34%"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Energy consumption for Domestic & Commercial purposes is about",
+		"choices" : ["30%","13%","3%", "50%"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Ninety nine percent of our energy comes from",
+		"choices" : ["Moon","Earth","Sun","Wind"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The annual oil consumption of the top 20 richest countries is about",
+		"choices" : ["35%","50%","10%","65%"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "For cooking and heating, about Three billion people of the third world mainly depend upon",
+		"choices" : ["Electricity","Coal","Nuclear energy","Solar energy"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "_____Percentage of the total energy represents the Non – renewable sources",
+		"choices" : ["82","28","8.2","None of the above"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "The largest energy consumer in the world is",
+		"choices" : ["India","USA","UK","Russia"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Annual coal consumption of India is about",
+		"choices" : ["100million tones","100 billion tons","10 million tons", "10 billion tons"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Annual oil consumption of India is about",
+		"choices" : ["3.25 million tons ","325 million tons ","32.5 million tons", "32.5 million tons"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Official estimates of coal availability in India is about",
+		"choices" : ["40 million tons","4 million tons","4 billion tons", "40 billion tons"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Projected demand for coal in India till the year 2020 is",
+		"choices" : ["2.3 billion tons", "23 billion tons", "23 billion tons", "None of the above"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Projected demand for hydroelectric power in India by 2020 is _____times more than the present installed capacity of about 15,000 Mu",
+		"choices" : ["120","1.2","0.12","12"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Gas reserves of India is about",
+		"choices" : ["100 million cubic meters","100 cubic meters","10 million cubic tons","None of the above"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "World gas reserves is estimated as",
+		"choices" : ["6300 million cubic meters","630000 million cubic meters","630 million cubic meters","63000 million cubic meters"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Electromagnetic radiation is an energy in the form of a",
+		"choices" : ["Light","Wave","Heat","All the above."],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Electromagnetic radiation energy is due to changing of",
+		"choices" : ["Electric and magnetic fields","Electric and Heat fields","Magnetic and Heat fields","None of the above"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Speed of Electromagnetic radiation waves is of the order of",
+		"choices" : ["30000 km/sec","30000 kmph","300000kmph","300000 km/sec"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Electromagnetic radiation travels through space at the speed of",
+		"choices" : ["Sound","Wind","Light","all the above."],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Cosmic rays, Gamma rays, X-rays and Ultraviolet radiation are known as",
+		"choices" : ["Primary radiation","Ionizing radiation","Non-Ionizing radiation","Secondary radiation"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "Cancer and related diseases are caused due to",
+		"choices" : ["Primary radiation","Non-Ionizing radiation","Ionizing radiation","Secondary radiation."],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The forms of electromagnetic radiation not containing enough energy to form ions are known as",
+		"choices" : ["Thermal radiation","Primary radiation","Ionizing radiation","Non-Ionizing radiation"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "The visible light that can be detected by our eyes is a form of",
+		"choices" : ["Non-Ionizing radiation","Ionizing radiation","Solar radiation","Black body radiation"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Ionizing radiation waves have",
+		"choices" : ["Low energy & short wave length ","Low energy & long wave length","High energy & short wave length ","High energy & long wave length"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The wave length range of ionizing radiation waves falls in the range of",
+		"choices" : ["10+4 to 10+7m","10-4 to 10+7m","10+4 to 10-7m","10-4 to 10-6m"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Non ionizing radiation electro magnetic waves have",
+		"choices" : ["Low energy, short wave length","Low energy, long wave length","High energy, short wave length","High energy, long wave length"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "In the early days the energy demands were met by",
+		"choices" : ["Wind","Muscular effort","Water power ","None of the above"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Example of renewable source of energy form is",
+		"choices" : ["Uranium","Wind","Coal ","Oil"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Example of non-conventional source of energy is",
+		"choices" : ["Natural gas","Oil","Nuclear ","Bio fuels"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Which of the following is not a fossil fuel",
+		"choices" : ["Oil","Gas","Coal", "Uranium"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Which of the following is not a non-conventional energy",
+		"choices" : ["Wind energy","Solar energy","Bio energy","Hydro electric energy"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Wind patterns and water flow is due to",
+		"choices" : ["Sun","Moon","Earth ","None of the above"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Per Capita annual electric consumption in India is about",
+		"choices" : ["3550 KW","3550 MW","355 KW ","355MW"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The annual power consumption of a computer working continuously is",
+		"choices" : ["876 Watt hours","876 KWh","8760 KWh","8760 Watt hours"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "One calorie is the amount of energy required to heat",
+		"choices" : ["One litre of water to 10C","One gram of water to 10C","One cubic meter of water to 10C ","None of the above"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "What is the primary difference between renewable resources and nonrenewable resources?",
+		"choices" : ["How easily they are discovered","The amount of the resource","the length of time it takes for them to be replenished ","how fast they are being used up"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Natural resources that occur at specific places are termed as ____________ resources.",
+		"choices" : ["Ubiquitous","localized","non-renewable","exhaustive"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "________________natural resources occur everywhere.",
+		"choices" : ["Ubiquitous","renewable","non-renewable ","exhaustive"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "_________________ is an example of ubiquitous resource.",
+		"choices" : ["Mineral","Coal","Oxygen ","Pertroleum"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Wildlife is classified as ____________ resource.",
+		"choices" : ["renewable","non-renewable","inexhaustible ","exhaustible"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "An example of a renewable resource is:",
+		"choices" : ["clay","sand","water ","fossil fuels"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The chief source of energy is _________.",
+		"choices" : ["wind","sun","water ","none"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "Which of the following would not be considered part of the direct input of energy from the sun?",
+		"choices" : ["solar energy","hydropower","biomass","geothermal"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "The maximum reserves of natural gas is in _______",
+		"choices" : ["Russia","UK","Iran ","USA"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Geothermal energy is season ___________.",
+		"choices" : ["dependent","independent","both a and b ","None"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Tidal power can be tapped in the form of _____________ energy.",
+		"choices" : ["Kinetic","Potential","Both (a) and (b) ","None of the above"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Gulf of Kambhat is ideal for the development of ___________ power.",
+		"choices" : ["wave","tidal","bio","none of the above"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Common energy sources in Indian villages is __________",
+		"choices" : ["electricity","sun","coal","wood and animal dung"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Wind energy generation depends on",
+		"choices" : ["velocity of wind","humidity","precipitation","None of the above"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Wind energy is the ___________ energy associated with the movement of atmospheric air.",
+		"choices" : ["potential","kinetic","mechanical","gravitational"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "The world's largest wind farm is located in ___________",
+		"choices" : ["California","Scotland","India","Texas"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "OTEC stands for _________________",
+		"choices" : ["Ocean Thermal Energy Conversion","Ocean Temperature Energy Conversion", "Ocean Temperature Energy Conservation",
+"none of the above"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Natural geysers which operate due to geothermal energy are present in",
+		"choices" : ["Manikaran in Kullu","Sohana in Haryana","both (a) and (b)","None of the above"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "A potential site for tidal energy development in India is identified as ____________.",
+		"choices" : ["Sunderbans","Vishakapattinam","Chennai ","Puga"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "Nuclear power plant in Karnataka is located at",
+		"choices" : ["Sandur","Bellary","Kaiga ","Raichur"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "It is necessary to use energy to get energy. The difference between what you get and what you use to get it is termed as _____________.",
+		"choices" : ["loss","gross energy","profit","net energy"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Brundtland Commission coined the term",
+		"choices" : ["Conservation","Sustainable Development","Pollutant","Toxicant"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Judicious usage of natural resources is termed as _____________.",
+		"choices" : ["Conservation","economical","Pollutant ","Toxicant"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Which of the following is not a part of the hydrological cycle?",
+		"choices" : ["Precipitation","Infiltration","Transpiration ","Perspiration"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "The term subsidence refers to _____________.",
+		"choices" : ["Failure of the groundwater supply","accumulation of silt behind a dam","Sinking of ground when water has been withdrawn","intrusion of salt water into a freshwater aquifer"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Withdrawing too much water from an aquifer can cause all of the following except _______________.",
+		"choices" : ["droughts","land subsidence","sinkholes","freshwater contaminated with saltwater"],
+		"correctAnswer": 0
+	},
+
+
+	{
+		"question" : "In an ecosystem ecological cycling of materials is maintained by",
+		"choices" : ["Producers","Consumers","Decomposers","All"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Eutrophication is",
+		"choices" : ["An improved quality of water in lakes","A process in carbon cycle","The result of accumulation of plant nutrients in water bodies","A water purification technique"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The maximum allowable concentration of fluorides in drinking water is",
+		"choices" : ["0.1mg/L "," 1.75mg/L ","1.25mg/L ","1.5mg/L"],
+		"correctAnswer": 3
+	},
+
+
+	{
+		"question" : "______ are referred as earth's lungs",
+		"choices" : ["carbon cycle" , "Forests" , "Water cycle" , "Mines"],
+		"correctAnswer": 1
+	},
+
+
+	{
+		"question" : "Among the fresh water available in the earth the % of surface water is about",
+		"choices" : ["50%", "10%", "5%", "Less than 1%"],
+		"correctAnswer": 3
+	},
+
+
+	{
+		"question" : "Which of the following is not a part of the hydrological cycle?",
+		"choices" : ["Precipitation" , "Infiltration" , "Transpiration" , "Perspiration"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "The ground water depends on",
+		"choices" : ["Amount of rainfall", "geological formation", "Run off", "All of these"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "The good example of sedimentary cycle is",
+		"choices" : ["Carbon cycle", "Nitrogen cycle", "Oxygen cycle", "Sulphur cycle"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Hydrogen is found on the earth in combination with",
+		"choices" : ["Sulphur", "Helium", "Copper", "Oxygen"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Animal husbandry may results in",
+		"choices" : ["Acid rain", "Ozone depletion", "Global warming", "snow fall"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Agricultural revolution began",
+		"choices" : ["1000-2000 years ago", "1Million years ago", "30,000-50,000 years ago", "10,000-20,000 years ago"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Typhoid, Cholera are examples of",
+		"choices" : ["Viral infection", "Bacterial infection", "Protozoan infection", "None of these"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The earth's land surface covered by the forest is about",
+		"choices" : ["1/4","1/2C","1/3","1/5"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Water without fluoride causes",
+		"choices" : ["Corrosion", "Dental cavity", "Scale formation", "Tooth decay"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "The organ of baby usually damaged from lead poisoning",
+		"choices" : ["Kidney", "Lungs", "Liver", "Heart"],
+		"correctAnswer": 0
+	}
+],
