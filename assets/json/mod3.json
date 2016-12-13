@@ -1,0 +1,564 @@
+[
+	{
+		"question" : "Presence of offensive, but not necessarily infectious matter in the environment is",
+		"choices" : ["Contamination","Pollution", "Infection", "Infestation"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Chipko movement was led by ____________.",
+		"choices" : ["Sunderlal Bahuguna","Medha Patkar", "Vandana Shiva", "Suresh Heblikar"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Karnataka, Chipko movement is termed as ____________ movement.",
+		"choices" : ["Appiko","Chipko-Appiko", "Appko", "None of the above"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Narmada Bachao Andolan was led by _____________.",
+		"choices" : ["Sunderlal Bahuguna","Medha Patkar", "Vandana Shiva", "Suresh Heblikar"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Environmental Education should be imparted only at",
+		"choices" : ["primary school stage","secondary school stage", "college stage", "at all stages"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Liquid state of the environment is termed as _______",
+		"choices" : ["Hydrosphere","Thermosphere", "Mantle", "Lithosphere"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "The main source of water is:",
+		"choices" : ["rivers","rain", "ponds", "canals"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "How much of Earth‘s water is fresh water?",
+		"choices" : ["97%","50%", "3%", "10%"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "What are the three states of water on Earth?",
+		"choices" : ["groundwater, lakes, and clouds","liquid water, frozen water, and water vapor", "gas, steam, and vapor", "groundwater, oceans, and ice"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "All of the following are part of the freshwater aquatic life zones, except ____________.",
+		"choices" : ["lakes","mangrove forests", "inland wetlands", "streams"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "A layer of sediment or rock that is highly permeable and contains ground water is called an",
+		"choices" : ["aquifer","well", "both (a) and (b)", "None of the above"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "How is water stored in an aquifer?",
+		"choices" : ["in an open underground lake","in cracks and spaces in rocks", "in impermeable rock", "in wells and springs"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "Enrichment of nutrients in the water body is termed as ___________",
+		"choices" : ["Oligitrophication","Eutrophication", "Dystrophication", "Putrification"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "The lack of sufficient water to meet the needs of the people in a country or region is called",
+		"choices" : ["water deficit","water shortage", "hydrological poverty", "hydrological shortage"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Throughout the world, the majority of water is used for",
+		"choices" : ["industrial uses","animals and humans", "transportation", "irrigation"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "A measure of the severity of the exposure resulting from the exposure is the _______________relationship.",
+		"choices" : ["toxicant-response","concentration-response", "(c) both (a) and (b)", "none of the above"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Name one non-biodegradable waste which may pollute the earth to dangerous levels of toxicity, if not handled properly.",
+		"choices" : ["DDT","CFC", "Radioactive substances", "PAN"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Discharge of industrial wastewater cause all except _______________________.",
+		"choices" : ["depletion of dissolved oxygen","destroy aquatic life", "change in climate", "impair biological activity"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Which of the following is non-biodegradable?",
+		"choices" : ["Animal bones","Nylon", "Eucalyptus leaves", "Wool"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Which of the following is by far the leading cause of water pollution?",
+		"choices" : ["mining","factories", "sewage treatment plants", "agriculture activities" ],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "Nitrate poisoning in infants causes ___________",
+		"choices" : ["Methemogolbinemia","leukemia", "anemia", "skin cancer"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Pathogenic bacteria enter wastewater , primarily from,",
+		"choices" : ["Industrial waste","Domestic waste", "Both industrial & domestic waste", "Infiltration from surrounding soils"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Biochemical oxygen demand measures _______________.",
+		"choices" : ["industrial pollution","air pollution", "polluting capacity by industries", "dissolved O2 needed by microbes to decompose organic wastes"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "The amount of oxygen required to oxidize reactive chemicals in a water system, typically determined by a standard test procedure refers to:",
+		"choices" : ["Biological oxygen demand","Chemical Oxygen demand", "Biochemical oxygen demand", "All of the above"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "_________ is an index of water pollution.",
+		"choices" : ["BOD","COD", "Turbidity", "Nitrates"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "A body of water can be depleted of its oxygen by",
+		"choices" : ["organic wastes","sediments and suspended solids", "inorganic wastes", "radioactive wastes"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Presence of high algal content in water indicates water is _________.",
+		"choices" : ["Hard","Alkaline", "Soft", "Acidic"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Sources of mercury in hospitals are:",
+		"choices" : ["Drugs","Ultra Sound Gel", "Dental Amalgam", "None of the above"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Itai-Itai disease is caused by the contamination of water due to _____________.",
+		"choices" : ["cadmium","mercury", "lead", "all"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "The following disease is not caused by water pollution:",
+		"choices" : ["Jaundice","dysentery", "malaria", "typhoid"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The pH range of drinking water is _____________.",
+		"choices" : ["6.0 - 9.9","6.5 - 8.5", "6.0 - 8.5", "6.5 - 7.5"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "The pH value of rain water is __________",
+		"choices" : ["5.7","7.0", "6.5", "8.0"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Physical pollution of water is due to",
+		"choices" : ["pH","dissolved oxygen", "turbidity", "nitrates"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "________ accumulates in bones and teeth and replaces Ca.",
+		"choices" : ["Sr-90","Ra", "Th", "U"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Fluoride pollution mainly affects ______________.",
+		"choices" : ["kidney","brain", "teeth", "lungs"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "What is the maximum available concentration of fluorides in drinking water?",
+		"choices" : ["1.0 mg/l","1.8 mg/l", "2.0 mg/l", "0.5 mg/l"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "The liquid waste from bath and kitchens is called",
+		"choices" : ["sullage","domestic sewage", "storm waste", "run-off"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "When the fluoride concentration in water exceeds 1.5 mg/l or so, the disease that may be caused is",
+		"choices" : ["Methemoglobinemia","Dental carries in children", "Fluorosis", "Poliomyelitis"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Blue baby syndrome is also termed as ____________",
+		"choices" : ["methemoglobinemia","leukemia", "anemia", "skin cancer"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Nitrosoamines are suspected to be agents of _____________ cancer.",
+		"choices" : ["lung","stomach", "intestine", "skin"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Siltation of water bodies leads to ____________.",
+		"choices" : ["Change in pH","turbidity", "change in temperature", "coloration"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Sediments act as _____________ to trace metals",
+		"choices" : ["pollutants","leachate", "repository", "none of these"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Which of the following is not likely to be a result of agriculture‘s use of water?",
+		"choices" : ["sediment pollution and increased runoff","pollution from pesticides and fertilizers", "recharged aquifers from agricultural activities", "fertilizers causing algal blooms in lakes"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The term =dead‘ with respect to a water body refers to:",
+		"choices" : ["The inability of a water body to sustain aquatic life b)The ability of a water body to sustain aquatic life","The inability of a water body to flow", "The heating or cooling of a water body"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Which of the following statements about lakes is true?",
+		"choices" : ["Stratified layers of lakes are characterized by vertical mixing.","Stratification increases levels of dissolved oxygen, especially in the bottom layer.", "Lakes are more vulnerable than streams to contamination by plant nutrients, oil, pesticides, and toxic substances that can destroy bottom life.",
+"Lakes have more flushing than streams"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Contaminated groundwater cannot cleanse itself for all of the following reasons, except",
+		"choices" : ["Groundwater does not move at all.","Contaminants are not dispersed effectively.", "Lower concentrations of dissolved oxygen exist for decomposition.", "Usually cold temperatures slow down reactions."],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "An important water contaminant is:",
+		"choices" : ["Heavy metals","Nitrogen oxides", "Carbon monoxide", "NO, and SO2"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "The effects of Hg are fatal as it is ___________",
+		"choices" : ["neurotoxin","mutagenic", "carcinogenic", "none of the above"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Cr VI is ______________ toxic than Cr III",
+		"choices" : ["more","less", "equally", "none"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "water borne disease:",
+		"choices" : ["Small Pox","Meningitis", "Diarrhea", "Cholera"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "The best method for disinfection of swimming pool water is",
+		"choices" : ["U-V rays treatment","Filtration", "Chlorination", "Heating"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "The best household method to obtain potable water:",
+		"choices" : ["Filtration","Boiling", "Chemical treatment", "Decantation"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "A good indicator of water quality is ________________.",
+		"choices" : ["ducks","fish", "turtles", "coliform bacteria"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Of the following organisms, the group that is least likely to cause disease is",
+		"choices" : ["bacteria","protozoa", "algae", "virus"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Rise in temperature in water decreases _________ level.",
+		"choices" : ["BOD","COD", "DO", "CO2"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The most serious environmental effect posed by hazardous wastes is",
+		"choices" : ["air pollution","contamination of groundwater", "increased use of land for landfills", "destruction of habitat"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "The presence of high coliform counts in water indicate",
+		"choices" : ["contamination by human wastes","phosphorus contamination", "decreased biological oxygen demand", "hydrocarbon contamination"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "The only effective way to protect groundwater is to",
+		"choices" : ["prevent contamination","use monitoring wells", "cover all wells carefully", "treat all water from underground sources"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Minamata episode of Japan is due to the poisoning of _____________.",
+		"choices" : ["lead","mercury", "cadmium", "nickel"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Arsenic levels are 5–100 times the standard for 140 million people living in __________.",
+		"choices" : ["the United States","Western Europe and as far east as Polandc) Central and South America", "China, Bangladesh, and part of India"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "The main reason that water supplies are chlorinated is ______________.",
+		"choices" : ["to filter out solids from the water","to kill bacteria in the water.", "to make the water softer", "to remove lead salts from the water as insoluble lead chloride"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "One method of desalination uses high pressure to force saltwater through a membrane filter. This method is called ___________.",
+		"choices" : ["diffusion","distillation", "reverse osmosis", "active transport"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Which of the following is not a means of purifying water for drinking?",
+		"choices" : ["Protecting watersheds from pollution","nanofilters", "carbon nanotubes", "centrifugation"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "The word soil is derived from the Latin word",
+		"choices" : ["environner","solum", "selenium", "none of the above"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "The agents of soil erosion are ____________",
+		"choices" : ["wind","water", "both (a) and (b)", "none of the above"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "What is the largest cause of soil erosion?",
+		"choices" : ["moving water","still water", "sink holes", "wind"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "A typical productive soil consists of approximately _____________ organic matter.",
+		"choices" : ["5%","10%", "20%", "50%"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Which of the following statement is false?",
+		"choices" : ["Soil erosion affects the productivity of agricultural fields","It takes 300 years for one inch of agricultural top soil to form", "The amount of erosion depends on soil type, slope, drainage pattern and crop management practices", "Soil erosion helps to retain water and nutrients in the root zone"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Land degradation is great challenge for India because of:",
+		"choices" : ["the 83 mha forest land, over half is used to various degrees","only 250 mha land of 330 mha posses any potential for production", "406 million of livestock have to supported on 13 mha land", "All of the above"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "When the productive potential of soil, especially on arid or semiarid land, falls by 10% or more because of prolonged drought and human activities, it is called _____________.",
+		"choices" : ["salinization","desertification", "soil erosion", "overgrazing"],
+		"correctAnswer": 1
+	},
+	{
+		"question" : "In the equation E = f(C, T, R, V, S, ....., H), V stands for ____________",
+		"choices" : ["voids","vegetation", "vulnerability", "valley"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "____________ causes thin and fragile egg shells in birds",
+		"choices" : ["PCBs","DDT", "Dieldrin", "none of the above"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "The major plant nutrients are",
+		"choices" : ["SPK","NPK", "NCS", "CPN"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "One of the most important characteristics of a pesticide is how long it will stay deadly in the environment, a characteristic called _____________.",
+		"choices" : ["lethal dose","usefulness", "impact", "persistence"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Which of the following would most likely be used to mine coal on hilly terrain?",
+		"choices" : ["open-pit mining","contour mining", "area strip mining", "strip mining"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Excessive application / usage of NPK fertilizers leads to the reduction of ___________ in plants.",
+		"choices" : ["Protein","Pigmentation", "Evapotranspiration", "Chlorophyll"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Water logging is a phenomena in which",
+		"choices" : ["crops patterns are changed","soil root zone becomes saturated due to over irrigation", "Erosion of soil", "None of the above"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "The best soil for healthy and vigorous growth of plant is _______________.",
+		"choices" : ["clayey","sandy", "loam", "clayey loam"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "Formation of water layer on land is called",
+		"choices" : ["water logging","salinization", "overgrazing", "none of the above"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Some toxic chemicals, such as those in DDT, can be stored in the fat tissue of animals. As these animals become food for larger and larger animals, the amount of the toxin gets larger and larger. This process is called _______",
+		"choices" : ["biophilia","biosphere", "biotechnology", "biomagnification"],
+		"correctAnswer": 3
+	},
+
+	{
+		"question" : "Excessive mineral salt accumulation in soil is termed as ____________",
+		"choices" : ["water logging","salinization", "overgrazing", "none of the above"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Forests prevent soil erosion by binding soil particles in their",
+		"choices" : ["stem","leaves", "roots", "buds"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "All of the following are alternatives to using pesticides, except ______________.",
+		"choices" : ["rotating crops planted in a field each year","provide homes for pest enemies", "bring in natural enemies", "freeze the pests"],
+		"correctAnswer": 3
+	},
+	{
+		"question" : "Neem is a",
+		"choices" : ["Biopesticide","Biofertilizer", "Herbicide", "Fungicide"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "The word noise is derived from __________word.",
+		"choices" : ["French","Greek", "Latin", "None of the above"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The word noise is derived from Latin word __________ meaning a feeling of sickness.",
+		"choices" : ["nausea","nauseated", "noseated", "nauseas"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Sound is ______________ form of energy",
+		"choices" : ["kinetic","potential", "both (a) and (b)", "none of these"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Sounds of frequency >20,000 Hz are called ___________",
+		"choices" : ["ultrasound","infrasound", "both (a) and (b)", "none of the above"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "_______________, as perceived by human ear, is the magnitude of a sound.",
+		"choices" : ["pitch","loudnesss", "sound levels", "sound intensity"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Annoyance is considered as a _____________ effect of noise.",
+		"choices" : ["auditory","non-auditory", "both a & b", "none"],
+		"correctAnswer": 1
+	},
+
+	{
+		"question" : "Interference with speech is termed as ____________ effect of noise.",
+		"choices" : ["non-auditory","auditory", "both (a) and (b)", "neither (a) nor (b)"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Human hearing is sensitive to frequencies in the range of about_______________ Hz",
+		"choices" : ["20 – 20,000", "40 – 10,000", "100 – 10,000", "None of the above"],
+		"correctAnswer": 0
+	},
+
+	{
+		"question" : "Disturbance from household gadgets and community including musical instruments, etc. is termed as ________noise.",
+		"choices" : ["Occupational","Transportation", "Neighbourhood", "None of the above"],
+		"correctAnswer": 2
+	},
+
+	{
+		"question" : "The areas up to the 100 meters around the premises such as hospitals, educational institutions and courts are:",
+		"choices" : ["Silence Zones","Atrophic Zones", "EMP Zones", "Irrigation Zones"],
+		"correctAnswer": 0
+	},
+	{
+		"question" : "The prescribed limits of noise in residential area during day is ________ dBA",
+		"choices" : ["55","45", "60", "50"],
+		"correctAnswer": 0
+	}
+],
