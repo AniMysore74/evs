@@ -1,25 +1,16 @@
 (function () {
-
+    // All global variables
     var module, allQuestions, questions;
-
-    var oReq = new XMLHttpRequest();
-    oReq.onload = reqListener;
-    oReq.open("get", "assets/json/modall.json", true);
-    oReq.send();
-
-    function reqListener(e) {
-        module = JSON.parse(this.responseText);
-        allQuestions = module[0].concat(module[1], module[2], module[3], module[4]);
-    }
     var questionCounter = 0; //Tracks question number
     var selections = []; //Array containing user choices
     var quiz = $('#quiz'); //Quiz div object
     var qnos = []; // Array containing randomly generated numbers corresponding to question numbers in  var questions
     var started = false;
-
+    // initalize
+    init();
     // Display quiz settings
     quizSettings();
-
+    // EVENT HANDLERS:
     // Click handler for the 'next' button
     $('#next').on('click', function (e) {
         e.preventDefault();
@@ -31,7 +22,6 @@
         questionCounter++;
         displayNext();
     });
-
     // Click handler for the 'submit' button
     $('#submit').on('click', function (e) {
         e.preventDefault();
@@ -49,7 +39,6 @@
             displayAnswer();
         }
     });
-
     // Click handler for the 'Start Over' button
     $('#start').on('click', function (e) {
         e.preventDefault();
@@ -65,27 +54,66 @@
             questionCounter = 0;
             selections = [];
             if ($('input[name="module"]').is(":checked")) {
-                questions = module[$('input[name="module"]:checked').val()];
-                for (var i = 0; i < questions.length; i++) {
-                    qnos.push(i);
-                }
-                displayNext();
-                $('#start').hide();
-            } else {
-                var noQs = $('input[name="qnos"]').val();
-                if (noQs < 1 || noQs > 4480) {
-                    alert('Please enter a number between 1 and 447');
-                } else {
-                    for (var i = 0; i < noQs; i++) {
-                        qnos.push(Math.floor(Math.random() * 448));
+                var val = $('input[name="module"]:checked').val();
+                if(val!=="all")
+                {
+                    questions = module[$('input[name="module"]:checked').val()];
+                    for (var i = 0; i < questions.length; i++) {
+                        qnos.push(i);
                     }
-                    questions = allQuestions;
                     displayNext();
                     $('#start').hide();
+                } else {
+                    var noQs = $('input[name="qnos"]').val();
+                    if (noQs < 1 || noQs > 4480) {
+                        alert('Please enter a number between 1 and 447');
+                    } else {
+                        for (var i = 0; i < noQs; i++) {
+                            qnos.push(Math.floor(Math.random() * 448));
+                        }
+                        questions = allQuestions;
+                        displayNext();
+                        $('#start').hide();
+                    }
                 }
+            } else {
+                alert("Please make a selection");
             }
         }
     });
+    // Radio button event handling
+    $(document).on( 'change', 'input[name="module"]', function(e) {
+        if (this.checked && this.value === "all") {
+            $('#qnos').removeAttr('disabled');
+        } else {
+            $('#qnos').attr('disabled', "disabled");
+        }
+    });
+    //FUNCTIONS:
+    // initializes the json and localStorage files
+    function init() {
+        //verify if db is in localStorage and kind-of verify integrity
+        if (localStorage.allmodules) {
+            module = JSON.parse(localStorage["allmodules"]);
+            allQuestions = module[0].concat(module[1], module[2], module[3], module[4]);
+            if (allQuestions.length==448) {
+                console.log("localStorage loaded");
+                return;
+            }
+        }
+        else {
+            var oReq = new XMLHttpRequest();
+            oReq.onload = reqListener;
+            oReq.open("get", "assets/json/modall.json", true);
+            oReq.send();
+
+            function reqListener(e) {
+                module = JSON.parse(this.responseText);
+                allQuestions = module[0].concat(module[1], module[2], module[3], module[4]);
+                localStorage.allmodules = JSON.stringify(module);
+            }
+        }
+    }
     // Set the number of questions
     function quizSettings() {
         started = true;
@@ -96,12 +124,21 @@
             });
             newElement.append('<p class="blue-grey-text">Go Full! Answer all questions from any module: </p>');
             for (var i = 0; i < 5; i++) {
-                var item = ('<input class="with-gap" style="display: inline-block"type="radio" name="module" id="mod' + (i + 1) + '" value=' + (i) + ' />');
+                var item = '<input class="with-gap" style="display: inline-block"type="radio" name="module" id="mod' + (i + 1) + '" value=' + (i) + ' />';
                 item += '<label class="black-text" style="padding-right:15px;display:inline-block" for="mod' + (i + 1) + '" > Module ' + (i + 1) + '</label>';
                 newElement.append(item);
             }
-            newElement.append('<br /><br /><p class="blue-grey-text" >Or exam style: All random! Select how many questions you want: </p>')
-            newElement.append('<p><input type="number" max="447" min="1" id="qnos" name="qnos" placeholder="Upto 447 questions"/><label for="qnos" ></label></p>');
+
+            var item = '<br /><br /><p class="blue-grey-text" >Or exam style: All random! Select how many questions you want:</p>'
+
+
+            item += '<div class="row">';
+            item += '<br><div class = "input-field col m4 s6"> <input class="with-gap" type="radio" name="module" id="modall" value="all" /><label class="black-text" for="modall">Combined : </label></div>';
+
+            item += '<div class = "input-field col m6 s6"><input type="number" max="447" min="1" id="qnos" name="qnos" placeholder="Upto 447 questions"/><label for="qnos" ></label></div></div>';
+
+            newElement.append(item);
+
             quiz.append(newElement).fadeIn();
             $('#next').hide();
             $('#submit').hide();
@@ -198,7 +235,7 @@
             }
         });
     }
-
+    // Displays answer after each question
     function displayAnswer() {
         quiz.fadeOut(function () {
             $('#question').remove();
@@ -212,7 +249,7 @@
             $('#start').hide();
         });
     }
-
+    // Validates the submitted answer
     function checkAnswer() {
         var params = {
             qlist: [],
