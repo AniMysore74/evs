@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - 0.12
+
+install:
+    - npm install cheerio
+    - npm install moment
+
+script: nodejs travis_scripts/update
+
+deploy:
+  provider: script
+  script: npm scripts/deploy.sh
+  on:
+    branch: develop
