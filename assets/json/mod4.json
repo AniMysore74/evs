@@ -38,7 +38,7 @@
 	{
 		"question" : "One of the problems that occurs as a consequence of CFC pollution is __________.",
 		"choices" : ["increasing skin cancer in humans", "toxins accumulating in homes", "damage to human red blood cells", "movement of toxins into lakes and rivers, which poisons fish"],
-		"correctAnswer": 3
+		"correctAnswer": 0
 	},
 
 	{
@@ -615,8 +615,8 @@
 
 	{
 		"question" : "One of the problems that occurs as a consequence of CFC pollution is ______",
-		"choices" : ["Increase in shin cancer in humans", "Toxins accumulating in homes", "Damage to human red blood cells", "Movement of toxins into lakes and rivers, which poisons fish"],
-		"correctAnswer": 1
+		"choices" : ["Increase in skin cancer in humans", "Toxins accumulating in homes", "Damage to human red blood cells", "Movement of toxins into lakes and rivers, which poisons fish"],
+		"correctAnswer": 0
 	},
 
 	{

@@ -93,25 +93,25 @@
     // initializes the json and localStorage files
     function init() {
         //verify if db is in localStorage and kind-of verify integrity
-        if (localStorage.allmodules) {
+        var modified = $('meta[name="last-modified"]').attr("content");
+        if (localStorage.allmodules && localStorage.modified) {
             module = JSON.parse(localStorage["allmodules"]);
             allQuestions = module[0].concat(module[1], module[2], module[3], module[4]);
-            if (allQuestions.length==448) {
+            if (allQuestions.length==448 && modified==localStorage.modified) {
                 console.log("localStorage loaded");
                 return;
             }
         }
-        else {
-            var oReq = new XMLHttpRequest();
-            oReq.onload = reqListener;
-            oReq.open("get", "assets/json/modall.json", true);
-            oReq.send();
+        var oReq = new XMLHttpRequest();
+        oReq.onload = reqListener;
+        oReq.open("get", "assets/json/modall.json", true);
+        oReq.send();
 
-            function reqListener(e) {
-                module = JSON.parse(this.responseText);
-                allQuestions = module[0].concat(module[1], module[2], module[3], module[4]);
-                localStorage.allmodules = JSON.stringify(module);
-            }
+        function reqListener(e) {
+            module = JSON.parse(this.responseText);
+            allQuestions = module[0].concat(module[1], module[2], module[3], module[4]);
+            localStorage.allmodules = JSON.stringify(module);
+            localStorage.modified = modified;
         }
     }
     // Set the number of questions
