@@ -78,7 +78,7 @@
 	{
 		"question" : "Energy flow in an ecosystem is",
 		"choices" : ["multi-directional","unidirectional","2-way flow","None of the above"],
-		"correctAnswer": 0
+		"correctAnswer": 1
 	},
 	{
 		"question" : "The transfer of food energy through a chain of organisms from one tropic level to another is known as _____________.",
@@ -153,7 +153,7 @@
 	{
 		"question" : "The reason that temperature increases with altitude through most of the stratosphere is ________.",
 		"choices" : ["Heat released by absorption of UV radiation by oxygen and ozone","sunlight is more intense in the stratosphere","water vapor levels are high and store heat","greenhouse gases warm the air"],
-		"correctAnswer": 1
+		"correctAnswer": 0
 	},
 	{
 		"question" : "Ozone layer is measured in",
@@ -465,4 +465,4 @@
 		"choices" : ["Water pollution","Soil pollution","Water logging","All the above"],
 		"correctAnswer": 3
 	}
-],
+]
