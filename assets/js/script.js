@@ -133,7 +133,7 @@
 
 
             item += '<div class="row">';
-            item += '<br><div class = "input-field col m2 s4"> <input class="with-gap" type="radio" name="module" id="modall" value="all" /><label class="black-text" for="modall">Combined : </label></div>';
+            item += '<br><div class = "input-field col m4 s6"> <input class="with-gap" type="radio" name="module" id="modall" value="all" /><label class="black-text" for="modall">Combined : </label></div>';
 
             item += '<div class = "input-field col m6 s6"><input type="number" max="447" min="1" id="qnos" name="qnos" placeholder="Upto 447 questions"/><label for="qnos" ></label></div></div>';
 
