@@ -6,7 +6,7 @@ install:
     - npm install cheerio
     - npm install moment
 
-script: nodejs travis_scripts/update
+script: node travis_scripts/update
 
 deploy:
   provider: script
