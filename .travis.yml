@@ -17,7 +17,6 @@ before_script:
     - node _travis_scripts/before.js
 
 script:
-    - jekyll build
     - bash ./_travis_scripts/deploy.sh
 
 #deploy:
