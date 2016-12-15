@@ -4,12 +4,16 @@ node_js:
 install:
 - npm install cheerio
 - npm install moment
-script: node travis_scripts/update
-deploy:
-  provider: script
-  script: ./bash travis_scripts/deploy.sh
-  on:
-    branch: master
+script:
+    - node travis_scripts/update
+    - ./bash travis_scripts/deploy.sh
+
+#deploy:
+#  provider: script
+#  script:
+#  on:
+#    branch: master
+
 #for gh-pages deployment. http://ricostacruz.com/cheatsheets/travis-gh-pages.html
 # TODO: better but more convoluted method https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
 env:
