@@ -14,11 +14,11 @@ install:
     - gem install jekyll
 
 before_script:
-    - node travis_scripts/before.js
+    - node _travis_scripts/before.js
 
 script:
     - jekyll build
-    - bash ./travis_scripts/deploy.sh
+    - bash ./_travis_scripts/deploy.sh
 
 #deploy:
 #  provider: script
