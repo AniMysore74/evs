@@ -10,10 +10,11 @@ git config --global user.email "nobody@nobody.org"
 git config --global user.name "Travis CI"
 
 # build (CHANGE THIS)
-make
+ls
 
 # deploy
 cd public
+
 git init
 git add --all
 git rm node_modules/
