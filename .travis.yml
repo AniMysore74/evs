@@ -6,7 +6,7 @@ install:
 - npm install moment
 script:
     - node travis_scripts/update
-    - ./bash travis_scripts/deploy.sh
+    - bash ./travis_scripts/deploy.sh
 
 #deploy:
 #  provider: script
