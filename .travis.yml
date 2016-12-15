@@ -2,16 +2,17 @@ language: node_js
 node_js:
 - 0.12
 
-#dependencies for before.js
+#dependencies for before.js and jekyll
 install:
 - npm install cheerio
 - npm install moment
+- gem install jekyll
 
 before_script:
     - node travis_scripts/before.js
 
 script:
-    - bash ./travis_scripts/build.sh
+    - jekyll build
     - bash ./travis_scripts/deploy.sh
 
 #deploy:
