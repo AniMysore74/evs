@@ -218,7 +218,7 @@
 	{
 		"question" : "The government of India adopted the national housing and habitat policy in",
 		"choices" : ["2000", "2001", "2002", "1998"],
-		"correctAnswer": ""
+		"correctAnswer": 3
 	},
 
 	{
@@ -242,6 +242,6 @@
 	{
 		"question" : "UN assembly proclaimed the universal declaration of human rights in Paris on",
 		"choices" : ["16th May 1994", "10th Dec 1948", "15 Nov 1980", "11th Dec 1949"],
-		"correctAnswer": 2
+		"correctAnswer": 1
 	}
 ]
