@@ -1,15 +1,19 @@
 language: node_js
 node_js:
-  - 0.12
-
+- 0.12
 install:
-    - npm install cheerio
-    - npm install moment
-
+- npm install cheerio
+- npm install moment
 script: node travis_scripts/update
-
 deploy:
   provider: script
-  script: npm scripts/deploy.sh
+  script: ./bash travis_scripts/deploy.sh
   on:
-    branch: develop
+    branch: master
+#for gh-pages deployment. http://ricostacruz.com/cheatsheets/travis-gh-pages.html
+# TODO: better but more convoluted method https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
+env:
+  global:
+    - GITHUB_REPO: "AniMysore74/evs"
+    - secure: "hb1/YkcPvtaRXhfBje3OJ5YhUQEZRrpSyRpq7yLp7j2utMq4bSTS0L7sVwBH6KSKH0t88iMiaAJ3zKAi1aPE8NnRfNeqT3btLVo1sVUCLAnxKvXBnaT2bPkhbqvlriJHvfxGkIdMz33AdmfLrk+UiUgVYFEti4srPz0Ym9RNeGx43vxzYOM9k/JlJEAk4qdCNO/XLesT/9kFaxpTGOaI07ahYAi+7lPIlxQM24MCynSWhHOEHLhUpIh2dbXCNd3EUH9JrF8ORH4oVPEOibqMvT19SIkd1z/4ziueFEAustymXVGAIecEt4pLcI/KIGdyXqanBijbykObt/hUzi1C8rzF9FtFGhgSwvmFw6nSdbYQ2zbYdw3ir1duxXOxF2WysnPCNEg2F68cafAd4OehNaOAqIw9kNPS63MKkSoimerpBCZgKB3KBcAsoy8zomwkpWKEfPZrI2bd7zUvL+B41/BPurfOyyh0pS0X7DAxlDeGuU9SPOL4Qttmu0+u4KmFau2RW8/Nw27yejkakKj9cHbRL1d0GU5IanwRX0zGOdUARiEmV8lgptJMTYPj5Ug8w6jZXzPdpwog/jGSzAAH2x1FHrjr6kKxE8Z0+FMjNqTJa/axUOGo76Efdfi5JujcaY95HA5NXRNodgu907Pp2sOM7iQl0wWpqj0Dub+4fy8="
+
