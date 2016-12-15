@@ -2,11 +2,16 @@ language: node_js
 node_js:
 - 0.12
 
-#dependencies for before.js and jekyll
+before_install:
+  - rvm install 2.2.2
+
+#dependencies
 install:
-- npm install cheerio
-- npm install moment
-- gem install jekyll
+    # for bejore.js
+    - npm install cheerio
+    - npm install moment
+    # for jekyll
+    - gem install jekyll
 
 before_script:
     - node travis_scripts/before.js
