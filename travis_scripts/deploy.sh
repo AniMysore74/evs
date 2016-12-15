@@ -25,4 +25,4 @@ cd public
 git init
 git add --all
 git commit -a -m "Deploy to Github Pages"
-git push --force --verbose "https://${GITHUB_TOKEN}@$github.com/${GITHUB_REPO}.git" master:gh-pages > /dev/null 2>&1
+git push "https://${GITHUB_TOKEN}@$github.com/${GITHUB_REPO}.git" master:gh-pages > /dev/null 2>&1
