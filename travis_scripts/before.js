@@ -19,12 +19,12 @@ function mergeJson() {
 
 // reads index.html and updates last-modified meta tag with current time
 function updateTime() {
-    
+
     var html = fs.readFileSync('index.html', 'utf8');
     var $ = cheerio.load(html);
     var now = moment().format();
     $('meta[name="last-modified"]').attr("content", now);
-    
+
     fs.writeFileSync('index.html',$.html(), 'utf-8');
 }
 
